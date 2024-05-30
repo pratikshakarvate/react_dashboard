@@ -9,6 +9,7 @@ import BaseLayout from "./layout/BaseLayout";
 import { Dashboard, PageNotFound } from "./screens";
 import Adduser from "./screens/users/Adduser";
 import UserTable from "./screens/users/UserTable";
+import Login from "./screens/login/Login";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
             <Route path="/adduser" element={<Adduser />} />
             <Route path="/usertable" element={<UserTable/>} />
+            <Route path="/usertable1" element={<Login/>} />
           </Route>
         </Routes>
 
