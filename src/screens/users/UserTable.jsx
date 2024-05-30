@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const UserTable = () => {
   return (
     <div>
-       <h2 class="area-top-title" >View</h2>
+       <h2 class="area-top-title" >User Add</h2>
        <div className='btn-right'>
           <Link to='/' className="btn">
             View
