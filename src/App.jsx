@@ -28,12 +28,14 @@ function App() {
     <>
       <Router>
         <Routes>
+          <Route path="/" element={<Login/>} />
+          
           <Route element={<BaseLayout />}>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashbord" element={<Dashboard />} />
             <Route path="*" element={<PageNotFound />} />
             <Route path="/adduser" element={<Adduser />} />
             <Route path="/usertable" element={<UserTable/>} />
-            <Route path="/usertable1" element={<Login/>} />
+            {/* <Route path="/" element={<Login/>} /> */}
           </Route>
         </Routes>
 
